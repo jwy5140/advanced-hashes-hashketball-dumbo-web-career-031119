@@ -3,7 +3,6 @@ def num_points_scored(name)
   game_hash.each {|x,y| 
     binding.pry
   }
-  ans
 end
 
 def game_hash
