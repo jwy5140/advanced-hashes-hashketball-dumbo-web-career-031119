@@ -1,6 +1,8 @@
 require 'pry'
 def num_points_scored(name)
-  game_hash.each {|x,y| binding.pry}
+  game_hash.each {|x,y| 
+    binding.pry
+  }
   ans
 end
 
