@@ -1,6 +1,6 @@
 require 'pry'
 def num_points_scored(name)
-  game_hash.find {|x,y| game_hash[x][:players].has_value?(name)}
+  game_hash.each {|x,y| if game_hash[x][:players][name]
 end
 
 def game_hash
